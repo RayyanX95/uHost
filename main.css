@@ -1,14 +1,18 @@
 /** @format */
 
 #product-overview {
+  background-color: red;
   background: url('./images/freedom.jpg');
+  /* background-image: linear-gradient(to top, rgba(80, 68, 18, 0.0) 10%, transparent); */
   background-size: cover;
   background-position: left 10% bottom 30%;
-  /* border: 8px dashed red; */
   background-repeat: no-repeat;
   background-origin: border-box;
-  background-clip: border-box;
+  background-clip: border-box; 
+  /* border: 8px dashed red; */
   /* background-attachment: fixed; */
+
+  /* background-image: radial-gradient(circle, red, blue, green); */
   width: 100%;
   height: 528px;
   padding: 10px;
