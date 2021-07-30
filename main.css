@@ -5,7 +5,7 @@
   background: url('./images/freedom.jpg');
   /* background-image: linear-gradient(to top, rgba(80, 68, 18, 0.0) 10%, transparent); */
   background-size: cover;
-  background-position: left 10% bottom 30%;
+  background-position: left 10% bottom 65%;
   background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box; 
@@ -14,7 +14,7 @@
 
   /* background-image: radial-gradient(circle, red, blue, green); */
   width: 100%;
-  height: 528px;
+  height: 40vh;
   padding: 10px;
   margin-top: 40px;
   position: relative;
