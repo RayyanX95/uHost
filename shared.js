@@ -16,15 +16,19 @@ for (let i = 0; i < selectPlanButtons.length; i++) {
 };
 
 backdrop.addEventListener('click', () => {
-  modal.classList.remove('open');
+  if (modal) {
+    modal.classList.remove('open');
+  }
   backdrop.classList.remove('open');
   mobileNav.classList.remove('open');
 });
 
-noButton.addEventListener('click', () => {
-  modal.classList.remove('open');
-  backdrop.classList.remove('open');
-});
+if (noButton) {
+  noButton.addEventListener('click', () => {
+    modal.classList.remove('open');
+    backdrop.classList.remove('open');
+  });
+}
 
 toggleButton.addEventListener('click', () => {
   mobileNav.classList.add('open');
